@@ -1,0 +1,36 @@
+.fade-right-text, .fade-right-text_active {
+    width: 30%;
+    margin: 0 0 25px 0;
+}
+
+.fade-right-text {
+    transform: translateX(-250px);
+    opacity: 0;
+}
+
+.fade-right-text_active {
+    transform: translateX(0);
+    opacity: 1;
+    transition: all 0.7s ease-in-out;
+}
+
+.fade-right-text__text {
+    font-family: "Mohave", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: -1px;
+    color: var(--ordinary-font-color);
+}
+
+@media (max-width: 810px) {
+    .fade-right-text__text {
+        font-size: 18px;
+    }
+    .fade-right-text {
+        transform: translateX(-150px);
+    }
+    
+    .fade-right-text_active {
+        transform: translateX(0);
+    }
+}

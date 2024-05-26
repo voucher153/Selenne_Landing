@@ -1,0 +1,94 @@
+@keyframes circleAnimation {
+    0% {
+        transform: translateX(200px);
+        opacity: 0;
+    }
+
+    12% {
+        transform: translateX(-20px);
+        opacity: 1;
+    }
+
+    22% {
+        transform: translateX(50px);
+        opacity: 1;
+    }
+
+    35% {
+        transform: translateX(-5px);
+        opacity: 1;
+    }
+
+    45% {
+        transform: translateX(10px);
+        opacity: 1;
+    }
+
+    60% {
+        transform: translateX(-3px);
+        opacity: 1;
+    }
+
+    75% {
+        transform: translateX(2px);
+        opacity: 1;
+    }
+
+    85% {
+        transform: translateX(-1px);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0);
+        opacity: 1;
+    }
+
+    to {
+        transform: rotate(360deg);
+        opacity: 1;
+    }
+}
+
+.circle-start {
+    width: 140px;
+    height: 140px;
+    opacity: 0;
+}
+
+.circle, .circle-rotation {
+    width: 140px;
+    height: 140px;
+    background-color: #ff7033;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    border-radius: 50%;
+    font-family: "Mohave", sans-serif;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+.circle {
+    animation: circleAnimation 4.5s ease-in-out;
+}
+
+.circle-rotation {
+    animation: rotation 2s linear infinite;
+}
+
+@media (max-width: 810px) {
+    .circle {
+        display: none;
+    }
+}

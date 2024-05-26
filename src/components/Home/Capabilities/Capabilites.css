@@ -1,0 +1,26 @@
+.capabilities__block {
+    padding: 0 100px 150px;
+}
+
+.capabilities-list__content {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    gap: 30%;
+    padding: 25px 0 0 0;
+}
+
+@media (min-width: 810px) and (max-width: 1200px) {
+    .capabilities__block {
+        padding: 0 50px 150px 50px;
+    }
+}
+
+@media (max-width: 810px) {
+    .capabilities__block {
+        padding: 0 25px 50px 25px;
+    }
+    .capabilities-list__content {
+        display: block;
+    }
+}

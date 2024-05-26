@@ -1,0 +1,10 @@
+.animated-block {
+    display: flex;
+    align-items: center;
+    margin: 0 0 50px 0;
+}
+
+.service-info__content {
+    margin: 0 0 90px 0;
+}
+

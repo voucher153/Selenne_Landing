@@ -1,0 +1,37 @@
+.service-info, .service-info_active {
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 100px;
+    row-gap: 35px;
+    
+}
+
+.service-info {
+    transform: translateX(30px);
+    opacity: 0;
+}
+
+.service-info_active {
+    transform: translateX(0);
+    opacity: 1;
+    transition: all 1s ease-in-out;
+}
+
+.service-info__item {
+    width: 30%;
+    font-family: "DM Sans", sans-serif;
+}
+
+.service-info__title {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--ordinary-font-color);
+    margin: 0 0 8px 0;
+}
+
+.service-info__text {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--title-font-color);
+}

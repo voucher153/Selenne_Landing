@@ -1,0 +1,28 @@
+.team-room-images__block {
+    padding-top: 0;
+    padding-right: 235px;
+}
+
+.team-room-images__content {
+    width: 100%;
+    padding: 0 0 65% 0;
+    position: relative;
+    overflow: hidden;
+    margin: 0 0 100px 0;
+}
+
+@media (min-width: 810px) and (max-width: 1200px) {
+    .team-room-images__block {
+        padding-right: 50px;
+    }
+}
+
+@media (max-width: 810px) {
+    .team-room-images__block {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .team-room-images__content {
+        padding: 0 0 50% 0;
+    }
+}

@@ -1,0 +1,35 @@
+.section-text-title__block_active, .section-text-title__block {
+    width: 600px;
+    padding: 0 0 40px 0;
+}
+
+.section-text-title__block_active {
+    transition: all 0.7s ease-in-out;
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.section-text-title__block {
+    transform: translateY(50px);
+    opacity: 0;
+}
+
+.section-text-title__text {
+    font-size: 52px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    line-height: 62px;
+    color: var(--title-font-color);
+}
+
+@media (max-width: 810px) {
+    .section-text-title__block_active, .section-text-title__block {
+        width: 90%;
+    }
+
+    .section-text-title__text {
+        font-size: 26px;
+        line-height: 40px;
+        word-wrap: break-word;
+    }
+}

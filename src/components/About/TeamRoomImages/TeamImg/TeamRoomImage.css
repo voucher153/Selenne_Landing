@@ -1,0 +1,40 @@
+.team-room-image__block, .team-room-image__block_active {
+    width: 60%;
+    position: absolute;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.team-room-image__block {
+    opacity: 0;
+}
+
+.team-room-image__block_active {
+    opacity: 1;
+    transition: all 1s ease-in-out;
+}
+
+.team-room-image__img {
+    width: 100%;
+    aspect-ratio: 1.5 / 1;
+    object-fit: cover;
+    border-radius: inherit;
+    object-position: center;
+}
+
+.team-room-image__block:first-child {
+    top: 0;
+    left: 0;
+}
+
+.team-room-image__block:last-child {
+    bottom: 0;
+    right: 0;
+}
+/* 
+@media (max-width: 810px) {
+    .team-room-image__block:last-child {
+        
+        right: 0;
+    }
+} */

@@ -1,0 +1,13 @@
+.work-greeting__block {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 0 0 45px 0;
+}
+
+
+@media (max-width: 1200px) and (min-width: 810px) {
+    .work-greeting__block .big-animated-text {
+        width: 400px !important;
+    }
+}

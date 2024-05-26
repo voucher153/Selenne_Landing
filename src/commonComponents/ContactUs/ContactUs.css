@@ -1,0 +1,41 @@
+.contact-us {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 100px 50px;
+    overflow: hidden;
+}
+
+.contact-us_page {
+    padding-top: 145px;
+}
+
+.contact-us__motivation-block {
+    display: flex;
+    gap: 18px;
+    padding: 20px 0 0 0;
+}
+
+@media (max-width: 1200px) {
+    .contact-us__motivation-block .big-animated-text {
+        width: fit-content !important;
+    }
+    .contact-us__motivation-block {
+        align-items: center;
+    }
+    .contact-us {
+        padding-left: 50px;
+    }
+}
+
+@media (max-width: 810px) {
+    .contact-us__motivation-block .big-animated-text {
+        width: 100%;
+    }
+    .contact-us {
+        padding: 0 25px 50px 25px;
+    }
+    .contact-us_page {
+        padding-top: 145px;
+    }
+}

@@ -1,0 +1,15 @@
+.allWork-active, .allWork {
+    position: absolute;
+    right: 0;
+}
+
+.allWork {
+    right: 200px;
+    opacity: 0;
+}
+
+.allWork-active {
+    right: 0;
+    opacity: 1;
+    transition: all 0.7s ease-in-out;
+}

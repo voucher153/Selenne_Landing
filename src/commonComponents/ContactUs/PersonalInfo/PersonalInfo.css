@@ -1,0 +1,68 @@
+.personal-info {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    gap: 24%;
+    align-items: center;
+    padding: 80px 0 0 0;
+}
+
+.personal-info__email-block_active {
+    transform: translateX(0);
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+}
+
+.personal-info__email-block {
+    transform: translateX(-250px);
+    opacity: 0;
+}
+
+.personal-info__email-block, .personal-info__email-block_active {
+    margin: 0 0 10px 0;
+    position: relative;
+    height: 60px;
+    width: 300px;
+    
+    &::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 4px;
+        width: 0;
+        opacity: 0;
+        background-color: var(--title-font-color);
+        transition: all 0.3s ease-in-out;
+    }
+
+    &:hover::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 4px;
+        width: 100%;
+        opacity: 1;
+        background-color: var(--title-font-color);
+    }
+}
+
+.personal-info__email {
+    font-size: 42px;
+    font-weight: 600;
+    font-family: "DM Sans", sans-serif;
+    color: var(--title-font-color);
+}
+
+@media (max-width: 810px) {
+    .personal-info {
+        display: block;
+    }
+    .personal-info__contact {
+        margin: 0 0 30px 0;
+    }
+}
+

@@ -1,0 +1,29 @@
+.rights-reserve, .rights-reserve_active {    
+    margin: 120px 0 0 0;
+}
+
+.rights-reserve {
+    transform: translateY(50px);
+    opacity: 0;
+}
+
+.rights-reserve_active {
+    transform: translateY(0);
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+}
+
+.rights-reserve__text {
+    font-size: 20px;
+    font-family: "DM Sans", sans-serif;
+    color: var(--ordinary-font-color);
+}
+
+@media (max-width: 810px) {
+    .rights-reserve, .rights-reserve_active {
+        margin: 50px 0 0 0;
+    }
+    .rights-reserve__text {
+        font-size: 16px;
+    }
+}

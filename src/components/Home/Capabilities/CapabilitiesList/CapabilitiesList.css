@@ -1,0 +1,33 @@
+.capabilities-list_active {
+    transform: translateY(0);
+    opacity: 1;
+    transition: all 0.7s ease-in-out;
+}
+
+.capabilities-list {
+    transform: translateY(50px);
+    opacity: 0;
+}
+
+.capabilities-list, .capabilities-list_active {
+    list-style-type: none;
+    margin: 0 0 50px 0;
+}
+
+.capabilities-list__item {
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    color: var(--ordinary-font-color);
+    line-height: 32px;
+    font-weight: 400;
+}
+
+@media (max-width: 810px) {
+    .capabilities-list__item {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .capabilities-list, .capabilities-list_active {
+        margin: 0 0 30px 0;
+    }
+}

@@ -1,0 +1,9 @@
+.home__video-block {
+    margin: 0 0 130px 0;
+}
+
+@media (max-width: 810px) {
+    .home__video-block {
+        margin: 0 0 50px 0;
+    }
+}

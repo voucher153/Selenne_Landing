@@ -1,0 +1,15 @@
+.about-us__block {
+    padding: 150px 40px 50px 100px;
+}
+
+@media (min-width: 810px) and (max-width: 1200px) {
+    .about-us__block {
+        padding: 150px 50px 50px 50px;
+    }
+}
+
+@media (max-width: 810px) {
+    .about-us__block {
+        padding: 50px 25px;
+    }
+}

@@ -1,0 +1,14 @@
+.nav-bar {
+    display: flex;
+    gap: 30px;
+}
+
+@media (max-width: 810px) {
+    .nav-bar {
+        /* position: absolute;
+        bottom: 30px; */
+        width: 100vw;
+        flex-direction: column;
+        align-items: center;
+    }
+}

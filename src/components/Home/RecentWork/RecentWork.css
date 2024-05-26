@@ -1,0 +1,15 @@
+.recent-work__block {
+    padding: 50px 100px 150px 100px;
+}
+
+@media (max-width: 1200px) {
+    .recent-work__block {
+        padding: 50px 50px 150px 50px;
+    }
+}
+
+@media (max-width: 810px) {
+    .recent-work__block {
+        padding: 50px 25px;
+    }
+}

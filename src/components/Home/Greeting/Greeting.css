@@ -1,0 +1,11 @@
+.greeting__block {
+    display: flex;
+    align-items: center;
+    padding-bottom: 150px;
+}
+
+@media (max-width: 810px) {
+    .greeting__block {
+        padding-bottom: 50px;
+    }
+}

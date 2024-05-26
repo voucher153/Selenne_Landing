@@ -1,0 +1,39 @@
+.geoposition, .geoposition_active {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-family: "DM Sans", sans-serif;
+    
+}
+
+.geoposition {
+    transform: translateY(50px);
+    opacity: 0;
+}
+
+.geoposition_active {
+    transform: translateY(0);
+    opacity: 1;
+    transition: all 0.5s ease-in-out
+}
+
+.geoposition__bold-text, .geoposition__ordinary-text {
+    font-size: 20px;
+}
+
+.geoposition__bold-text {
+    color: var(--title-font-color);
+}
+
+.geoposition__ordinary-text {
+    color: var(--ordinary-font-color);
+}
+
+@media (max-width: 810px) {
+    .geoposition, .geoposition_active {
+        gap: 5px;
+    }
+    .geoposition__bold-text, .geoposition__ordinary-text {
+        font-size: 16px;
+    }
+}
