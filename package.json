@@ -1,6 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
+  "homepage": "https://voucher153.github.io/Selenne_Landing",
   "predeploy" : "npm run build",
   "deploy" : "gh-pages -d build",
   "private": true,
