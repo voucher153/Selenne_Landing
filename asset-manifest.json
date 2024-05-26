@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Selenne_Landing/static/css/main.9b82a803.css",
+    "main.js": "/Selenne_Landing/static/js/main.b780c9ba.js",
+    "static/js/453.ed3810f9.chunk.js": "/Selenne_Landing/static/js/453.ed3810f9.chunk.js",
+    "static/media/Mohave-Light.ttf": "/Selenne_Landing/static/media/Mohave-Light.751505c281d810de83cf.ttf",
+    "index.html": "/Selenne_Landing/index.html",
+    "main.9b82a803.css.map": "/Selenne_Landing/static/css/main.9b82a803.css.map",
+    "main.b780c9ba.js.map": "/Selenne_Landing/static/js/main.b780c9ba.js.map",
+    "453.ed3810f9.chunk.js.map": "/Selenne_Landing/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b82a803.css",
+    "static/js/main.b780c9ba.js"
+  ]
+}
